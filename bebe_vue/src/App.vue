@@ -7,6 +7,10 @@ import IconProfil from './components/icons/IconProfil.vue'
 import IconMenu from './components/icons/IconMenu.vue'
 </script>
 
+<style>
+  @import './assets/css/style.css';
+</style>
+
 
 
 <template>
@@ -19,6 +23,7 @@ import IconMenu from './components/icons/IconMenu.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/liste">Liste</RouterLink>
             <nav  class="container-header">
           <div class="site-header">
             <!---------------- header et icons -------------->
