@@ -7,11 +7,18 @@ import IconMenu from './components/icons/IconMenu.vue'
 import IconRecherche from './components/icons/IconRecherche.vue'
 </script>
 
+<style>
+  @import './assets/css/style.css';
+</style>
+
+
+
 <template>
   <header>
       <nav  class="container-header">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+
           <div class="site-header">
             <!---------------- header et icons -------------->
             <div class="site-header-container">
