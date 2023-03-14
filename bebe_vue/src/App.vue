@@ -11,35 +11,32 @@ import IconRecherche from './components/icons/IconRecherche.vue'
   @import './assets/css/style.css';
 </style>
 
-
-
 <template>
   <header>
       <nav  class="container-header">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
 
           <div class="site-header">
             <!---------------- header et icons -------------->
             <div class="site-header-container">
               
-              <a href="{{ route('catalogue')}}" >
+              <RouterLink to="/accueil">
                 <IconContainer>
                   <template #icon>
                     <IconLogo />
                   </template>
                 </IconContainer>
-              </a>
+              </RouterLink>
+
 
               <div class="header-icon-container">
 
-                <a href="{{ route('user.create')}}">
+                <RouterLink to="/liste">
                   <IconContainer>
                       <template #icon>
                          <IconProfil />
                       </template>
                   </IconContainer>
-                </a>
+                </RouterLink>
 
                 <label for="menu-toggle">
                   <div class="container-icon-menu ">
