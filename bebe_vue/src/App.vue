@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <style>
-  @import './assets/styles/main..css';
+  @import './assets/css/style.css';
 </style>
 
 
@@ -18,6 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/liste">Liste</RouterLink>
             <nav  class="container-header">
           <div class="site-header">
             <!---------------- header et icons -------------->
