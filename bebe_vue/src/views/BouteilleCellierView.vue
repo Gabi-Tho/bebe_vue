@@ -44,10 +44,10 @@ import IconCreerCellier from '../components/icons/IconCreerCellier.vue'
     <div class="liste-container">
   
   <!-- search bar -->
-  <form class="search  liste-search ">
+  <!-- <form class="search  liste-search ">
     <input placeholder="recherche dans cellier" type="search">
     <button type="submit" class="search-button" value="Submit">Search</button>
-  </form>
+  </form> -->
 
   <!-- wine list -->
   <div class="container">
@@ -58,12 +58,12 @@ import IconCreerCellier from '../components/icons/IconCreerCellier.vue'
             <picture class="modal"><img src="../assets/images/vin2.png" alt="img"></picture>
             <div class="card-info">
                 <div class="card-info-title">
-                    <h3 class="card-title">Nom</h3>
-                    <p class="card-subtitle">Format</p>
-                    <p class="card-subtitle">Pays</p>
+                    <h3 class="card-title">Gungling Ginot Gris Gosel</h3>
+                    <p class="card-subtitle">White wine 300ml</p>
+                    <p class="card-subtitle">Australie</p>
                 </div>
                 <div class="card-info-client">
-                    <p class="card-count">Prix  $</p>
+                    <p class="card-count">420 $</p>
                     <p class="card-rating">Note: &#9733;&#9733;&#9733;&#10025;</p>
                     <div class="card-footer">
                       <button  class="card-btn_add " value="">+</button>   
@@ -105,12 +105,12 @@ import IconCreerCellier from '../components/icons/IconCreerCellier.vue'
             <picture class="modal"><img src="../assets/images/vin2.png" alt="img"></picture>
             <div class="card-info">
                 <div class="card-info-title">
-                    <h3 class="card-title">Riesling Pinot gris Mosel</h3>
-                    <p class="card-subtitle">White wine 750 ml</p>
+                    <h3 class="card-title">Jiesling Jinot Jris Josel</h3>
+                    <p class="card-subtitle">White wine 650 ml</p>
                     <p class="card-subtitle">France</p>
                 </div>
                 <div class="card-info-client">
-                    <p class="card-count">28 $</p>
+                    <p class="card-count">666 $</p>
                     <p class="card-rating">Note: &#9733;&#9733;&#9733;&#10025;</p>
                     <div class="card-footer">
                       <button  class="card-btn_add " value="">+</button>   
