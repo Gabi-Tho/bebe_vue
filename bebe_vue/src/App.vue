@@ -30,7 +30,7 @@ import IconRecherche from './components/icons/IconRecherche.vue'
 
               <div class="header-icon-container">
 
-                <RouterLink to="/liste">
+                <RouterLink to="/login">
                   <IconContainer>
                       <template #icon>
                          <IconProfil />
@@ -68,6 +68,12 @@ import IconRecherche from './components/icons/IconRecherche.vue'
           <!-------------- items menu-deroulant -------------->
           <input type="checkbox" id="menu-toggle"/>
           <ul id="menu">
+            <li class="list-item">
+              <RouterLink to="/liste">
+                  Liste
+              </RouterLink>
+              
+             </li>   
             @guest
             <li class="list-item"><a href="{{ route('welcome')}}">@lang('lang.settings')</a> </li>
             <li class="list-item"><a href="{{ route('welcome')}}">@lang('lang.privacy_policy')</a> </li>
