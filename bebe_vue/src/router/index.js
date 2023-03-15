@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/creer-compte',
       name: 'creer-compte',
       component: () => import('../views/auth/CreateView.vue')
+    },
+    {
+      path: '/creer-cellier',
+      name: 'creer-cellier',
+      component: () => import('../views/cellier/CreateCellierView.vue')
     }
   ]
 })
