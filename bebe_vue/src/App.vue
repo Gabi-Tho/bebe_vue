@@ -70,7 +70,7 @@ import IconRecherche from './components/icons/IconRecherche.vue'
           <ul id="menu">
             <li class="list-item">
               <RouterLink to="/liste">
-                  Liste
+                  Mon Cellier
               </RouterLink>  
             </li>  
             <li class="list-item">
