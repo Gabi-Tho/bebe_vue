@@ -71,9 +71,13 @@ import IconRecherche from './components/icons/IconRecherche.vue'
             <li class="list-item">
               <RouterLink to="/liste">
                   Liste
-              </RouterLink>
-              
-             </li>   
+              </RouterLink>  
+            </li>  
+            <li class="list-item">
+              <RouterLink to="/creer-cellier">
+                  Create Cellier
+              </RouterLink>  
+            </li>   
             @guest
             <li class="list-item"><a href="{{ route('welcome')}}">@lang('lang.settings')</a> </li>
             <li class="list-item"><a href="{{ route('welcome')}}">@lang('lang.privacy_policy')</a> </li>
